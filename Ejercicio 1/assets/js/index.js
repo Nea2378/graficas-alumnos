@@ -2,9 +2,16 @@ console.log("Entro a index.js")
 
 
 const ctx = document.getElementById('myChart');
+/*
+bar
+line
+pie
+doughnut
+radar
+*/ 
 
 new Chart(ctx, {
-    type: 'bar',
+    type: 'doughnut',
     data: {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [{
